@@ -3,11 +3,13 @@
   "version": "0.0.0",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "turbo-css",
+    "css"
   ],
-  "repository": "",
+  "repository": "https://github.com/rajasegar/ember-turbo-css",
   "license": "MIT",
-  "author": "",
+  "author": "Rajasegar Chandran <rajasegar.c@gmail.com>",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -32,8 +34,6 @@
     "@glimmer/tracking": "^1.0.0",
     "babel-eslint": "^10.1.0",
     "broccoli-asset-rev": "^3.0.0",
-    "broccoli-funnel": "^3.0.3",
-    "broccoli-merge-trees": "^4.2.0",
     "ember-auto-import": "^1.5.3",
     "ember-cli": "~3.19.0",
     "ember-cli-dependency-checker": "^3.2.0",
