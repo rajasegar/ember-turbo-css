@@ -1,3 +1,43 @@
-<h2 id="title">Welcome to Ember</h2>
+<h2 id="title" class="t1 color-blue bg-c-yellow hover:color-red">Welcome to Ember</h2>
+<figure class="t1 flex bg-c-gray-100 rounded-4 p-8 ">
+  <img class="t1 w-32 h-auto rounded-full mx-auto" src="https://avatars.githubusercontent.com/u/2083049?v=4" alt="" >
+  <div class="t1 pt-6 p-8 text-center text-left space-y-4">
+    <blockquote>
+      <p class="t1 text-lg font-semibold">
+        “Tailwind CSS is the only framework that I've seen scale
+        on large teams. It’s easy to customize, adapts to any design,
+        and the build size is tiny.”
+      </p>
+    </blockquote>
+    <figcaption class="t1 font-medium">
+      <div class="t1 text-cyan-600">
+        Sarah Dayan
+      </div>
+      <div class="t1 text-gray-500">
+        Staff Engineer, Algolia
+      </div>
+    </figcaption>
+  </div>
+</figure>
+
+<h3>Grid</h3>
+<div class="grid grid-flow-col grid-rows-2 grid-cols-3 gap-4">
+  <div>
+    1
+  </div>
+  <div class="col-start-3">
+    2
+  </div>
+  <div>
+    3
+  </div>
+  <div>
+    4
+  </div>
+  <div class="row-start-1 col-start-2 col-span-2">
+    5
+  </div>
+</div>
+
 
 {{outlet}}
